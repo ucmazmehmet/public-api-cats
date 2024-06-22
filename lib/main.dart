@@ -51,7 +51,6 @@ class _MyHomePageState extends State<MyHomePage> {
   String catName = "cat";
 
   void _incrementCounter() async {
-
     setState(() async {
       _counter++;
       catName = await callBreeds();
